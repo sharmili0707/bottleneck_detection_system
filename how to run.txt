@@ -1,0 +1,9 @@
+step1: create environment using command
+        python -m venv venv
+step2:activate environment using command
+        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+        venv\Scripts\activate
+step3: install packages using command
+        pip install -r requirements.txt
+step4:run python file using command
+        python main1.py

@@ -1,0 +1,163 @@
+{
+  "dataset_info": {
+    "total_records": 100,
+    "features": [
+      "Product type",
+      "SKU",
+      "Price",
+      "Availability",
+      "Number of products sold",
+      "Revenue generated",
+      "Customer demographics",
+      "Stock levels",
+      "Lead times",
+      "Order quantities",
+      "Shipping times",
+      "Shipping carriers",
+      "Shipping costs",
+      "Supplier name",
+      "Location",
+      "Lead time",
+      "Production volumes",
+      "Manufacturing lead time",
+      "Manufacturing costs",
+      "Inspection results",
+      "Defect rates",
+      "Transportation modes",
+      "Routes",
+      "Costs",
+      "delayed",
+      "delay_days",
+      "revenue_per_unit",
+      "profit_margin",
+      "lead_time_ratio",
+      "defect_impact",
+      "stock_turnover"
+    ],
+    "delay_rate": 14.000000000000002
+  },
+  "model_performance": {
+    "accuracy": 0.9,
+    "feature_importance": [
+      {
+        "feature": "delay_days",
+        "importance": 0.32758240776018344
+      },
+      {
+        "feature": "Lead time",
+        "importance": 0.14773977452211692
+      },
+      {
+        "feature": "lead_time_ratio",
+        "importance": 0.12859968655094497
+      },
+      {
+        "feature": "Defect rates",
+        "importance": 0.09936875293492253
+      },
+      {
+        "feature": "Shipping times",
+        "importance": 0.03323638501819145
+      },
+      {
+        "feature": "defect_impact",
+        "importance": 0.029715700697123756
+      },
+      {
+        "feature": "Revenue generated",
+        "importance": 0.02606877461594205
+      },
+      {
+        "feature": "Manufacturing costs",
+        "importance": 0.018694954268668833
+      },
+      {
+        "feature": "revenue_per_unit",
+        "importance": 0.0172238529175975
+      },
+      {
+        "feature": "profit_margin",
+        "importance": 0.016861041649817655
+      }
+    ]
+  },
+  "bottlenecks": [
+    {
+      "feature": "delay_days",
+      "importance": 0.32758240776018344,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    },
+    {
+      "feature": "Lead time",
+      "importance": 0.14773977452211692,
+      "bottleneck_type": "Logistics",
+      "severity": "Medium",
+      "action": "Optimize Lead time - consider alternative carriers or routes"
+    },
+    {
+      "feature": "lead_time_ratio",
+      "importance": 0.12859968655094497,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    },
+    {
+      "feature": "Defect rates",
+      "importance": 0.09936875293492253,
+      "bottleneck_type": "Quality",
+      "severity": "Medium",
+      "action": "Address Defect rates - implement quality control measures"
+    },
+    {
+      "feature": "Shipping times",
+      "importance": 0.03323638501819145,
+      "bottleneck_type": "Logistics",
+      "severity": "Medium",
+      "action": "Optimize Shipping times - consider alternative carriers or routes"
+    },
+    {
+      "feature": "defect_impact",
+      "importance": 0.029715700697123756,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    },
+    {
+      "feature": "Revenue generated",
+      "importance": 0.02606877461594205,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    },
+    {
+      "feature": "Manufacturing costs",
+      "importance": 0.018694954268668833,
+      "bottleneck_type": "Production",
+      "severity": "Medium",
+      "action": "Improve Manufacturing costs - optimize manufacturing process"
+    },
+    {
+      "feature": "revenue_per_unit",
+      "importance": 0.0172238529175975,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    },
+    {
+      "feature": "profit_margin",
+      "importance": 0.016861041649817655,
+      "bottleneck_type": "Other",
+      "severity": "Low",
+      "action": "Monitor and analyze further"
+    }
+  ],
+  "recommendations": [
+    "Focus on reducing delay_days to improve supply chain efficiency",
+    "Focus on reducing Lead time to improve supply chain efficiency",
+    "Focus on reducing lead_time_ratio to improve supply chain efficiency",
+    "Focus on reducing Defect rates to improve supply chain efficiency",
+    "Focus on reducing Shipping times to improve supply chain efficiency"
+  ]
+}
